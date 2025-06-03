@@ -5,8 +5,17 @@ import Header from '../common/Header'
 const Hero = () => {
   return (
     <div>
-      <h1>About us</h1>
+      
       <Header/>
+      <h1 className='text-green-950 px-2 py-2'>About us</h1>
+
+      <p className='flex text-red-700'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Ea dignissimos vel ipsam natus, ex cumque nihil, perferendis, odit dolore laudantium dolores.
+          Quae placeat doloribus est corporis, quidem sequi cumque exercitationem.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Ea dignissimos vel ipsam natus, ex cumque nihil, perferendis, odit dolore laudantium dolores.
+          Quae placeat doloribus est corporis, quidem sequi cumque exercitationem.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Ea dignissimos vel ipsam natus, ex cumque nihil, perferendis, odit dolore laudantium dolores.
+          Quae placeat doloribus est corporis, quidem sequi cumque exercitationem.</p>
     </div>
   )
 }
