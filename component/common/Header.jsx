@@ -2,7 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import SignInGoogle from '../common/SignInGoogle';
 import { onAuthStateChanged, signOut } from 'firebase/auth';
-import { auth } from '../../store/useAuthStore'; 
+import { auth } from '../../firebase'; 
+
 
 const Header = () => {
   const [user, setUser ] = useState(null);
